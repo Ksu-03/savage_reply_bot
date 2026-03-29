@@ -1,0 +1,21 @@
+{
+  "name": "tgfocusbot",
+  "version": "2.0.0",
+  "description": "Telegram bot for focus management with penalties, stars payments and group challenges",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "axios": "^1.6.2",
+    "better-sqlite3": "^9.2.0",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
